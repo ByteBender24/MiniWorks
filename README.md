@@ -60,8 +60,12 @@ This repository contains a variety of small and interesting code snippets. Feel 
     -   File: Tic_Tac_Toe.py
 11.  **Automatic File Backup:**
     
-    -   Description: [Brief description of the project]
+    -   Description: Automatic File Backup using "schedule" package
     -   Folder: Automatic_File_Backup
+    -   Files:
+        - automatic_file_backup.py
+    -   Requirements : requirements.txt
+    
 12.  **Clipboard Manager:**
     
     -   Description: [Brief description of the project]
