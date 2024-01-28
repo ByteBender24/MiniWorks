@@ -12,6 +12,11 @@ This Python script allows you to download YouTube videos by providing the video 
 - Download YouTube videos easily.
 - Choose from available video streams based on your preferences.
 
+## Screenshots
+
+![Screenshot](./img/YT_downloader.png)
+
+
 ## Requirements
 
 - Python 3.11.7
