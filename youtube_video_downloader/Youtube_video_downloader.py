@@ -1,5 +1,4 @@
 from pytube import YouTube
-import tkinter as tk
 from tkinter import filedialog
 from gui import window as gui_window
 from gui import url_entry, format_entry
