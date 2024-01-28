@@ -1,6 +1,7 @@
 import requests
+from gui import CONVERSIONS, CURRENCY_ENTRY, get_entry
 
-API_KEY = 'YOUR API KEY'
+API_KEY = 'YOUR OWN API KEY'
 BASE_URL = f"https://api.freecurrencyapi.com/v1/latest?apikey={API_KEY}"
 
 
@@ -21,8 +22,8 @@ def convert_currency(base):
 
 
 while True:
-    base = input("Enter the base currency (q for quit): ").upper()
-
+    # base = input("Enter the base currency (q for quit): ").upper()
+    base = CURRENCY_ENTRY
     if base == "Q":
         break
 
@@ -31,5 +32,7 @@ while True:
         continue
 
     del data[base]
+    
     for ticker, value in data.items():
+        CONVERSIONS += f"{ticker}: {value}\n"
         print(f"{ticker}: {value}")
