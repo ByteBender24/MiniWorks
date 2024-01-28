@@ -14,20 +14,21 @@ This Python script allows you to download YouTube videos by providing the video 
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11.7
 - Pytube library (installed via `pip install pytube`)
+- Tkinter library
 
 ## Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/youtube-downloader.git
+   git clone https://github.com/ByteBender24/MiniWorks.git
    ```
   
 2.  Change into the project directory:
     
-    `cd youtube-downloader` 
+    `cd youtube_video_downloader` 
     
 4.  Install the required dependencies:
     
@@ -35,7 +36,7 @@ This Python script allows you to download YouTube videos by providing the video 
     
 5.  Run the script:
     
-    `python downloader.py` 
+    `python Youtube_video_downloader.py` 
     
     Follow the prompts to input the YouTube video URL and choose your preferred video stream.
     
