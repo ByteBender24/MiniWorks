@@ -4,8 +4,8 @@ import datetime
 import schedule     #for scheduling 
 import time
 
-source_dir = "ENTER YOUR SOURCE DIRECTORY"
-destination_dir = "ENTER YOUR DESTINATION DIRECTORY"
+SOURCE_DIR = "ENTER YOUR SOURCE DIRECTORY"
+DESTINATION_DIR = "ENTER YOUR DESTINATION DIRECTORY"
 
 
 def copy_folder_to_directory(source, dest):
@@ -21,7 +21,7 @@ def copy_folder_to_directory(source, dest):
 
 
 schedule.every().day.at("18:57").do(
-    lambda: copy_folder_to_directory(source_dir, destination_dir))
+    lambda: copy_folder_to_directory(SOURCE_DIR, DESTINATION_DIR))
 
 while True:
     schedule.run_pending()
