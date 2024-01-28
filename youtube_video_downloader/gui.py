@@ -36,6 +36,7 @@ def get_data():
 
 window = Tk()
 
+window.title("YT video Downloader")
 window.geometry("537x352")
 window.configure(bg="#E1C1C1")
 
