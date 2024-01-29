@@ -47,19 +47,19 @@ A terminal version is also given
 
 1. **Main Interface**
    
-   ![Main Interface](screenshots/main_interface.png)
+   ![Main Interface](../img/Currency_converter_gui(1).png)
 
 2. **Currency Conversion Example**
 
-   ![Currency Conversion](screenshots/conversion_example.png)
+   ![Currency Conversion](../img/Currency_converter_gui(2).png)
 
 3. **Currency Conversion Example**
 
-   ![Currency Conversion](screenshots/conversion_example.png)
+   ![Currency Conversion](../img/Currency_converter_gui(3).png)
 
-4. **Terminal Program**
+4. **Terminal Programsss**
 
-   ![Terminal Program](screenshots/program_exit.png)
+   ![Terminal Program](../img/Currency_terminal.png)
 
 ## Contributing
 
