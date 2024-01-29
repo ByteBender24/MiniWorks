@@ -27,8 +27,14 @@ A simple currency converter with a graphical user interface (GUI) built in Pytho
 
 4. Run the program:
 
+    For gui program:
     ```bash
-    python currency_converter.py
+    python Currency_Converter.py
+    ```
+
+    For terminal program:
+    ```bash
+    python original_code_without_gui.py
     ```
 
 ## Usage
