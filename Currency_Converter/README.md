@@ -14,7 +14,7 @@ A terminal version is also given
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/ByteBender24/MiniWorks.git](https://github.com/ByteBender24/MiniWorks.git)
+    git clone https://github.com/ByteBender24/MiniWorks.git
     cd Currency_Converter
     ```
 
@@ -53,13 +53,13 @@ A terminal version is also given
 
    ![Currency Conversion](screenshots/conversion_example.png)
 
-3. **Invalid Currency Input**
+3. **Currency Conversion Example**
 
-   ![Invalid Input](screenshots/invalid_input.png)
+   ![Currency Conversion](screenshots/conversion_example.png)
 
-4. **Program Exit**
+4. **Terminal Program**
 
-   ![Program Exit](screenshots/program_exit.png)
+   ![Terminal Program](screenshots/program_exit.png)
 
 ## Contributing
 
