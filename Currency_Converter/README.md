@@ -1,6 +1,7 @@
 # Currency Converter
 
 A simple currency converter with a graphical user interface (GUI) built in Python using Tkinter.
+A terminal version is also given
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,8 +14,8 @@ A simple currency converter with a graphical user interface (GUI) built in Pytho
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/currency-converter.git
-    cd currency-converter
+    git clone [https://github.com/ByteBender24/MiniWorks.git](https://github.com/ByteBender24/MiniWorks.git)
+    cd Currency_Converter
     ```
 
 2. Install the required libraries:
