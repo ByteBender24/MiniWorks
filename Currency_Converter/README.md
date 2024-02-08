@@ -57,7 +57,7 @@ A terminal version is also given
 
    ![Currency Conversion](../img/Currency_converter_gui(3).png)
 
-4. **Terminal Programsss**
+4. **Terminal Programs**
 
    ![Terminal Program](../img/Currency_terminal.png)
 
