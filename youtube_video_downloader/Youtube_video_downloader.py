@@ -5,7 +5,7 @@ from gui import url_entry, format_entry
 
 
 def download_video(url, save_path, file_ext="mp4"):
-    try:
+    try: #//FIXME Here mp3 streams are not working and throwing None type, Need to revisit once
         yt = YouTube(url)
         streams = yt.streams.filter(progressive=True, file_extension=file_ext)
         highest_res_stream = streams.get_highest_resolution()
