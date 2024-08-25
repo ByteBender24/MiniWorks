@@ -38,13 +38,15 @@ This Python script allows you to download YouTube videos by providing the video 
 4.  Install the required dependencies:
     
     `pip install -r requirements.txt` 
-    
+
+Note: Update the pytube library and sometimes may have to change the regex in cipher.py (of get_throttling_function_name, function_patterns variable)
+
 5.  Run the script:
     
     `python Youtube_video_downloader.py` 
     
     Follow the prompts to input the YouTube video URL and choose your preferred video stream.
-    
+ 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
